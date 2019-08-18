@@ -57,9 +57,21 @@
 			#subContent {
 				float:left;
 				width:20%;
-				background:#eeee88;
 				position:absolute;
 				height:100%;
+			
+			}
+			#subContent ul{
+				
+			}
+			#subContent ul li {
+				background:#6688cc;
+				padding:10px;
+				margin:3px;
+			}
+			#subContent ul .active, #subContent ul li:hover {
+				background:#99eedd;
+				
 			}
 			#firstContent {
 				float:left;
@@ -70,6 +82,21 @@
 				width:25%;
 				padding:1%;
 				background:#ee88ee;
+			}
+			#subContent a {
+				display: block;
+				width:100%;
+				height:100%;
+				
+				padding-left:10px;
+			
+			}
+			
+			ul, li {
+				list-style: none;
+				padding:0;
+				margin:0;
+				
 			}
 		</style>
 	</head>
@@ -100,13 +127,13 @@
 					</div>
 				</div>
 				<div id="subContent">
-					<u1>
+					<ul>
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Company</a></li>
+						<li class="active"><a href="#">Company</a></li>
 						<li><a href="#">news</a></li>
 						<li><a href="#">notice</a></li>
 						<li><a href="#">personal issue</a></li>
-					</u1>
+					</ul>
 				</div>
 				<div class="clear"></div>
 			
