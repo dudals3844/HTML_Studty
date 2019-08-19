@@ -38,3 +38,15 @@ a {
 .clear{
 	clear: both;
 }
+.movietable {
+	width:100%;
+	
+}
+.movietable th {
+	background:#eeee99;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.movietable .poster{
+	width:15%;
+}

@@ -3,67 +3,60 @@
 	<head>
 		<title> example file</title>
 		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
-		<style type='text/css'>
-			body{
-				margin: 0;
-			}
-			a {
-				text-decoration: none;
-				color: #000000;
-			}
-			#wrap{
-				width: 960px;
-				margin: 0 auto;
-				background: #eeeeee;
-			}
-			#header {
-				background:#eeeeee;
-				padding: 20px;
-			}
-			#header span{
-				float:left;
-			}
-			#content {
-				padding:20px;
-			}
-			#content img
-			{
-				width:100%;
-			}
-			#footer
-			{
-				background: #000000;
-				height: 50px;
-				text-align: center;
-				padding: 20px;
-			}
-			#footer span {
-				color:#ffffff;
-				
-			}
-			.clear{
-				clear: both;
-			}
-		</style>
+		
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<div id="wrap">
 			<div id="header">
 				<span><img src="http://files.itworld.co.kr/archive/image/2018/07/2018-macbook-pro-02-100764569-large.jpg" alt="site logo" width="250px" height="150px" ></span>
 				<h1>using css</h1>
-				<h2>layout1 -- </h2>
+				<h2>using table </h2>
 				<div class="clear"></div>
 			</div>
 			<div id="content">
-				<h3>Make layout</h3>
-				<img src="http://img.danawa.com/prod_img/500000/958/178/img/2178958_1.jpg?shrink=500:500&_v=20190211152706" alt="배경이미지">
-				<p>북한이 지난 10일에 이어 16일 단거리 발사체 발사와 관	련해서도 김정은 국무위원장의 지도하에 '새 무기' 시험사격을 했다며 관련 사진들을 공개했다.
-
-조선중앙통신은 17일 "김정은 동지께서 8월 16일 오전 새 무기의 시험사격을 또다시 지도하시었다"며 관련 사진 6장을 공개했다. 
-
-중앙통신은 "또 다시 요란한 폭음이 천지를 뒤흔들고 눈부신 섬광을 내뿜는 주체탄들이 대지를 박차고 기운차게 날아올랐다"며 "이번 시험사격에서도 완벽한 결과를 보여주었으며 이 무기체계에 대한 보다 큰 확신을 굳힐 수 있게 해주었다"고 자평했다.
-
-통신은 최근의 시험사격 성과에 대해 "자위적 국방력 강화에서 사변적 의의를 가지는 새로운 성과들이 연이어 창조되고 있다"며 "첨단무기 개발 성과는 주체적 국방공업발전사에 전례를 찾아볼 수 없는 기적적인 승리이며 자위적 국방력 강화에서 획기적인 전환점으로 되는 커다란 사변들"이라고 평가했다.</p>
+				<h3>make table and decolation</h3>
+				<table class="movietable">
+					<thead>
+						<tr>
+							<th>nuber</th>
+							<th>movie name</th>
+							<th>actor</th>
+							<th>year</th>
+							<th class="poster">poster</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>mama</td>
+							<td>young min</td>
+							<td>2018</td>
+							<td><img src="https://www.ibs.re.kr/dext5data/2016/06/20160627_141830550_98556.jpg"> </td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>mama</td>
+							<td>young min</td>
+							<td>2018</td>
+							<td><img src="https://www.ibs.re.kr/dext5data/2016/06/20160627_141830550_98556.jpg"> </td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>mama</td>
+							<td>young min</td>
+							<td>2018</td>
+							<td><img src="https://www.ibs.re.kr/dext5data/2016/06/20160627_141830550_98556.jpg"> </td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>mama</td>
+							<td>young min</td>
+							<td>2018</td>
+							<td><img src="https://www.ibs.re.kr/dext5data/2016/06/20160627_141830550_98556.jpg"> </td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 			<div id="footer">
 				<span>2019.css All right reserved</span>
