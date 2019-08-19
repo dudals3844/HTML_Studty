@@ -51,8 +51,34 @@ ul, li {
 	
 	background:#eeee11
 }
+
+#nav > li:hover > ul{
+	display:block;
+}
+#nav > .active {
+	background:#eeee11;
+}
 #nav > li > a {
 	display: block;
 	padding:12px 65px;
 	border-right:1px solid #666666;
+}
+#nav > li > ul {
+	background:#eeeeee;
+	position:absolute;
+	border:1px solid 666666;
+	
+	display:none;
+}
+
+#nav > li > ul > li > a {
+	display:block;
+	padding: 12px 65px;
+
+}
+
+#nav > li > ul > li:hover {
+	background:#eeee11;
+	
+
 }
