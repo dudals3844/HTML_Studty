@@ -40,7 +40,40 @@ a {
 }
 
 #loginform {
-	width:100%;
-	height:150px;
-	border:1px solid #666666;
+	width:50%;
+	height:250px;
+	border:1px solid #999999;
+	position:relative;
+	margin: 0 auto;
+	padding:20px;
+}
+
+#loginform label{
+	display:block;/*detach login display and password display*/
+	width:80px;
+}
+
+#loginform input[type="text"], #loginform input[type="password"] {
+	padding:10px;
+	border:none;
+	width:80%;
+}
+
+#loginform input[type="checkbox"] {
+	width:3%;
+}
+
+#loginform input[type="submit"] {
+	width:30%;
+	background:#5555ee;
+	border:none;
+	margin-left:250px;
+	
+	
+}
+#loginform input[type="submit"]:hover {
+	
+	background:#9999cc;
+	cursor: pointer;
+	
 }
