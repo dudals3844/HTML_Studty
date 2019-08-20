@@ -38,3 +38,9 @@ a {
 .clear{
 	clear: both;
 }
+
+#loginform {
+	width:100%;
+	height:150px;
+	border:1px solid #666666;
+}
