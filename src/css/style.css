@@ -50,3 +50,31 @@ a {
 .movietable .poster{
 	width:15%;
 }
+.movietable .director{
+	width:15%;
+}
+.movietable .date{
+	width:10%;
+}
+.movietable td {
+	border-bottom: 1px solid #dddddd;
+	padding-left:10px;
+}
+.movietable .number {
+	text-align:center;
+	padding-left:0px;
+}
+.movietable .odd {
+	background:#eeee11;
+}
+.movietable .odd .director {
+	background:#cccccc;
+}
+
+.movietable tr:hover {
+	background:#dddddd;
+}
+.movietable tfoot td {
+	border-bottom: 2px solid #cccccc;
+	background:#333333;
+}
