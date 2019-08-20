@@ -56,6 +56,9 @@ a {
 .movietable .date{
 	width:10%;
 }
+.movietable .number {
+	width:5%;
+}
 .movietable td {
 	border-bottom: 1px solid #dddddd;
 	padding-left:10px;
