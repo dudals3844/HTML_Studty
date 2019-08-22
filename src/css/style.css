@@ -38,3 +38,23 @@ a {
 .clear{
 	clear: both;
 }
+.bbslist {
+	width:100%;
+	border-spacing:0;
+	
+}
+.bbslist thead tr th {
+	background:#dddddd;
+	border-bottom: 2px solid #999999;
+	padding:10px;
+	border-top: 2px solid #999999;
+}
+.bbslist tbody tr td {
+	padding:5px;
+	border-bottom: 1px solid #bbbbbb;
+	text-align:center;
+}
+.bbslist .t_subject{
+	width:65%;
+	text-align:left;
+}
