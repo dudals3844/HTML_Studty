@@ -5,6 +5,11 @@ a {
 	text-decoration: none;
 	color: #000000;
 }
+
+a:hover /* :hover 정상 : hover 오류*/ {
+	text-decoration: underline;
+	
+}
 #wrap{
 	width: 960px;
 	margin: 0 auto;
@@ -53,8 +58,19 @@ a {
 	padding:5px;
 	border-bottom: 1px solid #bbbbbb;
 	text-align:center;
+	font-size:12px;
 }
 .bbslist .t_subject{
 	width:65%;
 	text-align:left;
+}
+.bbslist .t_subject .t_comment {
+	font-size:12px;
+	color:#ff2222;
+}
+.bbslist .t_subject .t_hasimage {
+	background: url("img/hasimg.png") no-repeat;
+	width:12px;
+	height:12px;
+	display:inline-block;
 }
