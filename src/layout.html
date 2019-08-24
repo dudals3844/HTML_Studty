@@ -148,10 +148,42 @@
 					</tbody>
 					
 					<tfoot>
-					
+					<tr>
+						<td colspan="5"><a class="btnWrite" href="#">write</a></td>
+					</tr>
 					</tfoot>
 				</table>
-				
+				<div class="pageContainer">
+					<u1 class="pageList">
+						
+						<li><a href="#"><</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">></a></li>
+						
+					</u1>
+				</div>
+				<div class="clear"></div>
+				<div class="searchContainer">
+					<select>
+						<option value="all">기간</option>
+						<option value="week">1주일</option>
+						<option value="month">1개월</option>
+						<option value="year">1년</option>
+					</select>
+					
+					<select>
+						<option value="subject_article">제목+내용</option>
+						<option value="subject">제목만</option>
+						<option value="article">내용만</option>
+					</select>
+					
+					<input type="text" id="searchText" name="searchText">
+					<input type="submit" id="searchBtn" name="searchBtn" value="검색하기">
+				</div>
 				
 			</div>
 			<div id="footer">

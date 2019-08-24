@@ -10,6 +10,11 @@ a:hover /* :hover 정상 : hover 오류*/ {
 	text-decoration: underline;
 	
 }
+ul, li {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
 #wrap{
 	width: 960px;
 	margin: 0 auto;
@@ -94,3 +99,49 @@ a:hover /* :hover 정상 : hover 오류*/ {
 	padding:2px;
 	
 }
+
+.bbslist tfoot {
+	text-align:right;
+}
+.bbslist tfoot tr td {
+	padding:10px;
+	border-bottom: 2px solid #bbbbbb;
+	border-top: 2px solid #bbbbbb;
+}
+.bbslist tfoot .btnWrite {
+	border: 1px solid #bbbbbb;
+	font-size:12px;
+	padding:6px;
+	background: #ffffff;
+}
+.bbslist tfoot .btnWrite:hover {
+	text-decoration: none;
+	background:#FFF300;
+}
+.pageList {
+	display:inline-block;
+	margin-top:18px;/*tfoot이랑 조금 떨어지게 설정*/
+}
+.pageContainer {
+	width:100%;
+	text-align:center;
+}
+
+.pageList li {
+	float:left; /* 가로로 되어있는 1,2,3,4,5를 세로로 변경*/
+	background:#ffffff;
+	padding:5px;
+	border: 1px solid #bbbbbb;
+}
+
+.pageList li a {
+	background:#ffffff;
+}
+
+.searchContainer {
+	width:100%;
+	text-align: center;
+	margin-top:10px;/*위에 내용과 조금 떨어지기*/
+}
+
+
