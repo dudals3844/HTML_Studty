@@ -74,3 +74,23 @@ a:hover /* :hover 정상 : hover 오류*/ {
 	height:12px;
 	display:inline-block;
 }
+.bbslist .t_notice {
+	background: #bbbbbb;
+}
+
+.bbslist .t_notice .t_subject a {
+	color: #774500;
+	font-weight: bold;
+}
+
+.bbslist .t_notice .t_subject .t_comment {
+	color: #FFF300;
+	font-weight: bold;
+}
+
+.bbslist .t_notice .t_number span {
+	background:#FFF300;
+	font-size:11px;
+	padding:2px;
+	
+}
