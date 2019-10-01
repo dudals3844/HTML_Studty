@@ -6,21 +6,34 @@
         <style>
             body{background-color: silver}
             h1 {background-color: rgb(25, 0, 0)}
-            p{background-color: #FFFFCC}
+ !DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML page heading</title>
+        <style>
+            body{background-color: silver}
+            h1 {background-color: rgb(25, 0, 0)}
+            p{background-color: #FFFFCC}/**/
+
+            a:link {color:teal}/*default (not visit before)*/
+            a:visited {color: maroon;text-decoration: none}
+            a:hover {color:yellow;text-decoration: none}/**/
+            a:active{color: red;text-decoration: none}/*keep click*/
         </style>
     </head>
 
     <body background="exaple.img">
-        <h1 style="color:blue">Hi</h1>
-        <h1 style="color:red">Hi</h1>
-        <h1 style="color:silver">Hi</h1>
+        <a href="www.google.com">
+            <h2>Click this link</h2>
+        </a>
 
-        
-        <h1 style="color:rgb(0, 0, 255)">Hi</h1>
-        <h1 style="color:rgb(192, 192, 192)">Hi</h1>
-        
-        
-        <h1 style="color:#0000FF">Hi</h1>
-        <h1 style="color:#008000">Hi</h1>
+        <h2><a href="" target="_blank">blank</a></h2>
+        <h2><a href="/html/intro" target="_self">self</a></h2>
+        <h2><a href="/html/intro" target="_parent">parent</a></h2>
+        <h2><a href="/html/intro" target="_top">top</a></h2>
+        <h2><a href="/html/intro" target="myframe">myframe</a></h2>
+    
+    <iframe name="myframe" style="width:50%; height: 330px"></iframe>
     </body>
 </html>
