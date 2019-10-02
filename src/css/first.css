@@ -1,2 +1,2 @@
-.decLetterSpacing{ letter-spacing: -3px;}
-.incLetterSpacing{ letter-spacing: 10px;}
+.decWordSpacing{ word-spacing: -3;}
+.incWordSpacing{ word-spacing: 10px;}
