@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>HTML page heading</title>
         <style>
-            body{background-color: silver}
+            body{background-color:black}
             h1 {background-color: rgb(25, 0, 0)}
  !DOCTYPE html>
 <html>
@@ -12,7 +12,7 @@
         <meta charset="UTF-8">
         <title>HTML page heading</title>
         <style>
-            body{background-color: silver}
+            body{background-color: }
             h1 {background-color: rgb(25, 0, 0)}
             p{background-color: #FFFFCC}/**/
 
@@ -24,14 +24,43 @@
                 width: 100%;
                 border:1px solid black;
             }
+            ul {color:floralwhite;font-size: 40px}
         </style>
     </head>
 
-    <body background="exaple.img">
-        <img src="/vscode/HTML_Studty/img/default.gif" alt="no gif" width="320" height="210">
+    <body>
+        <!--순서없는 리스트-->
+        <ul style="list-style-type:circle">
+            <li>apple</li>
+            <li>melon</li>
+            <li>banana</li>
+        </ul>
+
+        <ol style="list-style-type: upper-alpha">
+            <li>water melon</li>
+            <li>water melon</li>
+            <li>water melon</li>
+        </ol>
         
-        <a href="" target="_blank">
-            <img src="" alt="flag" style="width: 320px; height:214px">
-        </a>
+        <ol style="list-style-type: upper-roman">
+                <li>water melon</li>
+                <li>water melon</li>
+                <li>water melon</li>
+        </ol>
+
+        
+        <ol style="list-style-type: lower-greek">
+                <li>water melon</li>
+                <li>water melon</li>
+                <li>water melon</li>
+        </ol>
+
+        <!--definition list-->
+        <dl>
+            <dt>apple</dt>
+            <dd>So sweet</dd>
+            <dt>Choi</dt>
+            <dd>Army</dd>
+        </dl>
     </body>
 </html>
