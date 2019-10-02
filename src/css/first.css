@@ -1,6 +1,12 @@
-a {
-    background-color: #FFFFE0;
-    color:darkslategray;
-    font-size: 1.3em;
-    text-decoration: non;
+a:link{
+    color: olive;
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color: coral;
+}
+a:active{
+    color: khaki;
 }
