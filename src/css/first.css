@@ -1,12 +1,12 @@
-a:link{
-    color: olive;
+a:link,a:visited{
+    background-color: #FFA500;
+    color: maroon;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-a:visited{
-    color:brown;
-}
-a:hover{
-    color: coral;
-}
-a:active{
-    color: khaki;
+
+a:hover, a:active{
+    background-color: blue;s
 }
