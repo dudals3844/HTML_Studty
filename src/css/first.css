@@ -1,6 +1,3 @@
-.narrowLineHeight{
-    line-height: 0.8;
-}
-.wideLineHeight{
-    line-height: 1.8;
+p{
+    text-shadow: 2px 2px lightgreen;
 }
