@@ -1,4 +1,6 @@
-h1{ text-decoration: overline;}
-h2{ text-transform: uppercase;}
-h3{ text-transform: lowercase;}
-h4{ text-transform: capitalize;}
+.narrowLineHeight{
+    line-height: 0.8;
+}
+.wideLineHeight{
+    line-height: 1.8;
+}
