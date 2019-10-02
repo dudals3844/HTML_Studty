@@ -1,63 +1,23 @@
 <!DOCTYPE html>
 <html>
+         
     <head>
         <meta charset="UTF-8">
         <title>HTML page heading</title>
-        <style>
-            body{background-color:black}
-            h1 {background-color: rgb(25, 0, 0)}
- !DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>HTML page heading</title>
-        <style>
-            body{background-color: }
-            h1 {background-color: rgb(25, 0, 0)}
-            p{background-color:black}/**/
+        <link rel="stylesheet" href="css/first.css">
 
-            a:link {color:teal}/*default (not visit before)*/
-            a:visited {color: maroon;text-decoration: none}
-            a:hover {color:yellow;text-decoration: none}/**/
-            a:active{color: red;text-decoration: none}/*keep click*/
-            img {
-                width: 100%;
-                border:1px solid black;
-            }
-            ul {color:floralwhite;font-size: 40px}
-            table, th, td{border:1px solid white;border-collapse: collapse}
-        </style>
     </head>
     <body>
-        <form>
-            name: <br><input type="text" name="student_name"><br>
-            number: <br><input type="text" name="student_id" ><br>
-            major: <br><input type="text" name="major" value="computer science"><br>
-        </form>
+        <h2>apply this css</h2>
+        <h2 id="heading">이 부분에 스타일을 적용합니다</h2>
+        
 
-        <form>
-            name: <br><input type="text" name="student_name"><br>
-            number: <br><input type="text" name="student_id" ><br>
-            major: <br><input type="text" name="major" value="computer science" readonly><br>
-        </form>
+        <h2 class="headings">이 부분에 스타일을 적용합니다.</h2>
 
-        <form>
-            name: <br><input type="text" name="student_name"><br>
-            number: <br><input type="text" name="student_id" ><br>
-            major: <br><input type="text" name="major" value="computer science" disabled><br>
-        </form>
+        <p>class 선택자를 이용하여 스타일을 적용할 HTML 요소들을 한 번에 선택할 수 있습니다.</p>
 
-        <!--maxlength-->
-        <form>
-            name: <br><input type="text" name="student_name" value="Choi" maxlength="10"><br>
-            number: <br><input type="text" name="student_id">
-        </form>
-
-        <!--size-->
-        <form>
-            name: <br><input type="text" name="student_name" id=""><br>
-            number: <br><input type="text" name="student_id" id=""><br>
-        </form>
-    
+<h3 class="headings">이 부분에도 같은 스타일을 적용합니다.</h3>
     </body>
+
+    
 </html>
