@@ -25,42 +25,27 @@
                 border:1px solid black;
             }
             ul {color:floralwhite;font-size: 40px}
+            table, th, td{border:1px solid white;border-collapse: collapse}
         </style>
     </head>
 
     <body>
-        <!--순서없는 리스트-->
-        <ul style="list-style-type:circle">
-            <li>apple</li>
-            <li>melon</li>
-            <li>banana</li>
-        </ul>
+        <table style="width: 200%">
+            <tr style="background-color: lightgray">
+                <!--테이블의 행 합치기
+                rowspan 속성을 사용하면 테이블의 행(row)을 합칠 수 있습니다.-->
+                <th rowspan="2">apple</th>
+                <th colspan="2">banana</th>
+            </tr>
 
-        <ol style="list-style-type: upper-alpha">
-            <li>water melon</li>
-            <li>water melon</li>
-            <li>water melon</li>
-        </ol>
-        
-        <ol style="list-style-type: upper-roman">
-                <li>water melon</li>
-                <li>water melon</li>
-                <li>water melon</li>
-        </ol>
-
-        
-        <ol style="list-style-type: lower-greek">
-                <li>water melon</li>
-                <li>water melon</li>
-                <li>water melon</li>
-        </ol>
-
-        <!--definition list-->
-        <dl>
-            <dt>apple</dt>
-            <dd>So sweet</dd>
-            <dt>Choi</dt>
-            <dd>Army</dd>
-        </dl>
+            <tr>
+                <td>grape</td>
+                <td>melon</td>
+            </tr>
+            <tr>
+                <td>CHoi</td>
+                <td>Young</td>
+            </tr>
+        </table>
     </body>
 </html>
