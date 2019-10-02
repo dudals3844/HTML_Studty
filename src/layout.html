@@ -28,16 +28,28 @@
             table, th, td{border:1px solid white;border-collapse: collapse}
         </style>
     </head>
-    <!--수직 프레임셋은 하나의 브라우저 창을 세로 방향으로 분리하여 표현합니다.-->
+    <body>
+        <div id="header"><h2>Header place</h2></div>
+        <div id="nav"><h2>Nav place</h2></div>
+        <div id="section"><p>Section place</p></div>
+        <div id="footer"><h2>Footer place</h2></div>
 
-    <frameset cols="25%,*,25%">
-            <frame name="left" src="/html/intro"/>
-            <frame name="center" src="/css/intro"/>
-            <frame name="right" src="/php/intro"/>
-            <noframes>
-                <body>
-                    이 브라우저는 frame태그를 지원하지 않습니다!
-                </body>
-            </noframes>
-    </frameset>
+        <header><h2>Header</h2></header>
+        <nav><h2>Nav section</h2></nav>
+        <section><p>Section</p></section>
+        <footer><h2>Footer place</h2></footer>
+
+        <table width="100%" style="text-align: center; border:none">
+            <tr>
+                <td colspan="2" style="background-color:none"><h2>Header section</h2></td>
+            </tr>
+            <tr>
+                <td style="background-color: #339999; color:white; width:20%"><h2>Nav section</h2></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #FFCC00"><h2>Footer section</h2></td>
+            </tr>
+        </table>
+
+    </body>
 </html>
