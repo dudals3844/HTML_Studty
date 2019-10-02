@@ -1,3 +1,4 @@
-.normal{ font-weight: normal;}
-.bold{ font-weight: 600;}
-.bolder{ font-weight: bolder;}
+body{font-size: 100%;}
+#large{ font-size: 2.5em;}
+#small{ font-size: 0.7em;}
+#fixed{ font-size: 20px;}
