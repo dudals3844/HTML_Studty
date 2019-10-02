@@ -29,27 +29,65 @@
         </style>
     </head>
     <body>
-        <div id="header"><h2>Header place</h2></div>
-        <div id="nav"><h2>Nav place</h2></div>
-        <div id="section"><p>Section place</p></div>
-        <div id="footer"><h2>Footer place</h2></div>
+        <form action="">
+            input the search
+            <input type="text" name="search">
+        </form>
 
-        <header><h2>Header</h2></header>
-        <nav><h2>Nav section</h2></nav>
-        <section><p>Section</p></section>
-        <footer><h2>Footer place</h2></footer>
+        <!--password input-->
+        <form>
+            User: <br><input type="text" name="username"><br>
+            Password: <br><input type="password" name="password">
+        </form>
 
-        <table width="100%" style="text-align: center; border:none">
-            <tr>
-                <td colspan="2" style="background-color:none"><h2>Header section</h2></td>
-            </tr>
-            <tr>
-                <td style="background-color: #339999; color:white; width:20%"><h2>Nav section</h2></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="background-color: #FFCC00"><h2>Footer section</h2></td>
-            </tr>
-        </table>
+        <form>
+            <input type="radio" name="lecture" value="html" checked>HTML<br>
+            <input type="radio" name="lecture" value="css">CSS <br>
 
+        </form>
+
+        <form>
+            <input type="checkbox" name="lecture" value="html" checked>HTML<br>
+            <input type="checkbox" name="lecture" value="css">CSS <br>
+        </form>
+
+        <form>
+            <input type="file" name="uploadfile" accept="image/*">
+        </form>
+
+        <section name="fruit">
+            <option value="apple" selected>apple</option>
+            <option value="orange">orange</option>
+            <option value="peach">peach</option>
+        </section>
+
+
+        <!--문장 입력-->
+        <textarea name="message" rows="5" cols="30">
+            Input here
+        </textarea>
+
+        <button type="button" onclick="alert('click the button')">
+            click the button
+        </button>
+
+        <!--Send button-->
+        <form action="">
+            Input the name: <br>
+            <input type="text" name="name" value="name"><br><br>
+            <input type="submit" value="send">
+        </form>
+
+        <!--Fieldset-->
+        <form action="">
+            <fieldset>
+                <legend>Input </legend>
+                name: <br>
+                <input type="text" name="username"><br>
+                Email: <br>
+                <input type="text" name="useremail"><br><br>
+                <input type="submit" value="send">
+            </fieldset>
+        </form>
     </body>
 </html>
