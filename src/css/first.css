@@ -1,5 +1,6 @@
-a{background-color: yellow; font-size: 16px;}
-h2{color: teal;text-decoration: underline;}
-#heading {color:white;text-decoration: line-through;}
-.headings {color: lime;text-decoration: overline;}
-/* h1,h2,p {background-color: lightgray;} */
+.blue{color: blue;}
+.blue{color: rgb(0, 0, 255);}
+.blue{color: #0000FF;}
+
+
+
