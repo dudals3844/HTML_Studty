@@ -1,3 +1,2 @@
-.normal{ font-style: normal;}
-.italic{ font-style: italic;}
-.oblique{ font-style: oblique;}
+.normal{ font-variant: normal;}
+.smallCaps { font-variant: small-caps;}
