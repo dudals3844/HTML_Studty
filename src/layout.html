@@ -29,65 +29,35 @@
         </style>
     </head>
     <body>
-        <form action="">
-            input the search
-            <input type="text" name="search">
-        </form>
-
-        <!--password input-->
         <form>
-            User: <br><input type="text" name="username"><br>
-            Password: <br><input type="password" name="password">
+            name: <br><input type="text" name="student_name"><br>
+            number: <br><input type="text" name="student_id" ><br>
+            major: <br><input type="text" name="major" value="computer science"><br>
         </form>
 
         <form>
-            <input type="radio" name="lecture" value="html" checked>HTML<br>
-            <input type="radio" name="lecture" value="css">CSS <br>
-
+            name: <br><input type="text" name="student_name"><br>
+            number: <br><input type="text" name="student_id" ><br>
+            major: <br><input type="text" name="major" value="computer science" readonly><br>
         </form>
 
         <form>
-            <input type="checkbox" name="lecture" value="html" checked>HTML<br>
-            <input type="checkbox" name="lecture" value="css">CSS <br>
+            name: <br><input type="text" name="student_name"><br>
+            number: <br><input type="text" name="student_id" ><br>
+            major: <br><input type="text" name="major" value="computer science" disabled><br>
         </form>
 
+        <!--maxlength-->
         <form>
-            <input type="file" name="uploadfile" accept="image/*">
+            name: <br><input type="text" name="student_name" value="Choi" maxlength="10"><br>
+            number: <br><input type="text" name="student_id">
         </form>
 
-        <section name="fruit">
-            <option value="apple" selected>apple</option>
-            <option value="orange">orange</option>
-            <option value="peach">peach</option>
-        </section>
-
-
-        <!--문장 입력-->
-        <textarea name="message" rows="5" cols="30">
-            Input here
-        </textarea>
-
-        <button type="button" onclick="alert('click the button')">
-            click the button
-        </button>
-
-        <!--Send button-->
-        <form action="">
-            Input the name: <br>
-            <input type="text" name="name" value="name"><br><br>
-            <input type="submit" value="send">
+        <!--size-->
+        <form>
+            name: <br><input type="text" name="student_name" id=""><br>
+            number: <br><input type="text" name="student_id" id=""><br>
         </form>
-
-        <!--Fieldset-->
-        <form action="">
-            <fieldset>
-                <legend>Input </legend>
-                name: <br>
-                <input type="text" name="username"><br>
-                Email: <br>
-                <input type="text" name="useremail"><br><br>
-                <input type="submit" value="send">
-            </fieldset>
-        </form>
+    
     </body>
 </html>
