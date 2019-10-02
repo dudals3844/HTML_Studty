@@ -30,21 +30,37 @@
     </head>
 
     <body>
-        <table style="width: 200%">
-            <tr style="background-color: lightgray">
-                <!--테이블의 행 합치기
-                rowspan 속성을 사용하면 테이블의 행(row)을 합칠 수 있습니다.-->
-                <th rowspan="2">apple</th>
-                <th colspan="2">banana</th>
-            </tr>
-
+        <table style="width: 100%">
             <tr>
+                <td colspan="6">1</td>
+            </tr>
+            <tr>
+                <td colspan="6">2</td>
+            </tr>
+            <tr>
+                <td rowspan="3">3</td>
+                <td rowspan="3">4</td>
+                <td colspan="2">5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td colspan="4">10</td>
+            </tr>
+        </table>
+
+        <!--테이블의 캡션(caption) 설정
+<caption>태그를 사용하면 테이블 상단에 제목이나 짧은 설명을 붙일 수 있습니다.-->
+        <table style="width: 100%">
+            <caption>C,Y,M</caption>
+            <tr>
+                <td>apple</td>
                 <td>grape</td>
                 <td>melon</td>
-            </tr>
-            <tr>
-                <td>CHoi</td>
-                <td>Young</td>
             </tr>
         </table>
     </body>
