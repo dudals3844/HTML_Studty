@@ -1,5 +1,8 @@
-p{
-    min-height: 50px;
-    background-color: greenyellow;
-    
+div{
+    background-color: red;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    border: 20px solid maroon;
+    margin: 150px;
 }
