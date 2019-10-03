@@ -1,2 +1,6 @@
-table, th, td { border: 2px solid orange;}
-table{ border-collapse: collapse;}
+table, th, td { border: 1px solid black;}
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px 30px;
+}
