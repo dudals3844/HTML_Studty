@@ -1,7 +1,14 @@
 table, th, td { border: 1px solid black;}
 table{
+    border-collapse: collapse;
     width: 100%;
-    border-collapse: separate;
 }
-th{ text-align: left;}
-td{ text-align: center;}
+th{
+    vertical-align: top;
+    height: 50px;
+}
+td{
+    vertical-align: bottom;
+    height: 50px;
+    /* text-align: center; */
+}
