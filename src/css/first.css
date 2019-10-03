@@ -1,5 +1,5 @@
 p{
-    max-height: 50px;
+    min-height: 50px;
     background-color: greenyellow;
-    overflow: auto;
+    
 }
