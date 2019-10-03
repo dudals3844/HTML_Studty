@@ -1,28 +1,20 @@
-.dottedA {
-    border-style: dotted;
-    border-width: 2px;
-}
-.dottedB {
-    border-style: dotted;
-    border-width: 5px;
-}
-.dashedA {
-    border-style: dashed;
-    border-width: thin;
-}
-.dashedB {
-    border-style: dashed;
-    border-width: thick;
-}
-.doubleA {
-    border-style: double;
-    border-width: 5px;
-}
-.doubleB {
-    border-style: double;
-    border-width: thick;
-}
-.mix {
+p {
     border-style: solid;
-    border-width: 1px 2px 10px thick;
+    border-width: 3px;
+}
+
+.red {
+    border-color: red;
+}
+.green{
+    border-color: green;
+}
+.blue{
+    border-color: blue;
+}
+.mix{
+    border-color: red green blue maroon
+}
+.color {
+    color: teal;
 }
