@@ -1,11 +1,14 @@
 div{
     background-color: #7FFFD4;
     border: 2px solid teal;
+
+}
+div.four{
+    padding: 20px 50px 30px 50px;
+    color: black;
 }
 
-div.pad {
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-bottom: 30px;
-    padding-left: 100px;
+div.three{
+    padding: 20px 50px 30px;
+    color: black;
 }
