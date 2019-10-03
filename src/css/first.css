@@ -3,12 +3,7 @@ table{
     border-collapse: collapse;
     width: 100%;
 }
-th{
-    vertical-align: top;
-    height: 50px;
-}
-td{
-    vertical-align: bottom;
-    height: 50px;
-    /* text-align: center; */
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid blue;
 }
