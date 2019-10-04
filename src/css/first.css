@@ -1,23 +1,17 @@
-p{ border: 1px solid black;}
-.solidA{
-    outline-style: solid;
-    outline-color: violet;
-    outline-width: 2px;
-
-}
-.solidB{
-    outline-style: solid;
-    outline-color: coral;
-    outline-width: 7px;
+p{ 
+    border: 1px solid black;
+    outline-style: dashed;
 }
 
-.dashedA{
-    outline-style: dashed;
-    outline-color: violet;
-    outline-width: thin;
+.red{
+    outline-color: red;
 }
-.dashedB{
-    outline-style: dashed;
-    outline-color: coral;
-    outline-width: thick;
+.green{
+    outline-color: green;
+}
+.blue{
+    outline-color: blue;
+}
+.invert{
+    outline-color: invert;
 }
