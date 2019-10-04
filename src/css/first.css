@@ -1,13 +1,10 @@
-.mixA, .mixB{
-    border-style: solid;
-    border-width: 3px;
+div{
+    background-color: aqua;
+    border: 2px solid teal;
 }
-
-.mixA{
-    border-top-style: dotted;
-    border-right-style: double;
-    border-bottom-style: dotted;
-    border-left-style: double;
-
+div.mar{
+    margin-top: -25px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
 }
-.mixB{ border-style: dotted double;}
