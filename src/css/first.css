@@ -1,17 +1,15 @@
 p{ 
     border: 1px solid black;
-    outline-style: dashed;
+    
+}
+.none{
+    border-style: none;
+}
+.good{
+    outline: 3px solid teal;
+}
+.wrong{
+    outline: 5px teal;
 }
 
-.red{
-    outline-color: red;
-}
-.green{
-    outline-color: green;
-}
-.blue{
-    outline-color: blue;
-}
-.invert{
-    outline-color: invert;
-}
+
