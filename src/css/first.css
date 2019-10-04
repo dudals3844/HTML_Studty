@@ -1,18 +1,23 @@
-body{
-    background-color: white;
+p{ border: 1px solid black;}
+.solidA{
+    outline-style: solid;
+    outline-color: violet;
+    outline-width: 2px;
+
 }
-p {
-    border: 1px solid aqua;
-    outline-color: red;
-    color: black;
+.solidB{
+    outline-style: solid;
+    outline-color: coral;
+    outline-width: 7px;
 }
-.dotted {outline-style: dotted;}
-.dashed {outline-style: dashed;}
-.solid {outline-style: solid;}
-.double {outline-style: double;}
-.groove {outline-style: groove;}
-.ridge {outline-style: ridge;}
-.inset {outline-style: inset;}
-.outset {outline-style: outset;}
-.none {outline-style: none;}
-.hidden {outline-style: hidden;}
+
+.dashedA{
+    outline-style: dashed;
+    outline-color: violet;
+    outline-width: thin;
+}
+.dashedB{
+    outline-style: dashed;
+    outline-color: coral;
+    outline-width: thick;
+}
