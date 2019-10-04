@@ -2,9 +2,12 @@ div{
     background-color: aqua;
     border: 2px solid teal;
 }
-div.mar{
-    margin-top: -25px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+div.parent{
+    height: 100px;
     margin-left: 100px;
+
+}
+div.child{
+    background-color: white;
+    margin-left: inherit;
 }
