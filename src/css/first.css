@@ -1,21 +1,10 @@
 div{
-    width: 100px;
-    height: 50px;
+    background-color: ivory;
+    border: 2px solid red;
 }
-
-.first{
-    background-color: aqua;
+.none{
+    display: none;
 }
-.second{
-    background-color: green;
-}
-.third{
-    background-color: yellow;
-}
-
-.inline{
-    display: inline;
-}
-.inline-block{
-    display: inline-block;
+.hidden{
+    visibility: hidden;
 }
