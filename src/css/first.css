@@ -1,20 +1,13 @@
-p {
+.mixA, .mixB{
     border-style: solid;
     border-width: 3px;
 }
 
-.red {
-    border-color: red;
+.mixA{
+    border-top-style: dotted;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-left-style: double;
+
 }
-.green{
-    border-color: green;
-}
-.blue{
-    border-color: blue;
-}
-.mix{
-    border-color: red green blue maroon
-}
-.color {
-    color: teal;
-}
+.mixB{ border-style: dotted double;}
