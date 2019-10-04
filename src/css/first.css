@@ -1,10 +1,4 @@
 div{
-    background-color: ivory;
     border: 2px solid red;
-}
-.none{
-    display: none;
-}
-.hidden{
-    visibility: hidden;
+    position: static;
 }
