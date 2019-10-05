@@ -4,7 +4,7 @@ div.first{
 div.second{
     border: 3px solid yellow;
 }
-p:last-child{
+p:nth-child(2n){
     color: red;
     font-weight: bold;
 }
