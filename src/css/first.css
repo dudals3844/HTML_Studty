@@ -1,29 +1,21 @@
-.container{
-    border: 2px solid red;
-    width: 100%;
-    height: 1000px;
-    position: relative;
-}
-.positon{
-    width: 150px;
+.position{
+    width: 180px;
     height: 50px;
-    top: 100px;
-    left: 120px;
 }
 .static{
-    border: 2px solid wheat;
-    position: static;
+    background-color: lightblue;
+    position: static
 }
-.relative{
-    border: 3px solid green;
-    position: relative;
-
-}
-.fixed {
-    border: 2px solid orange;
+.first {
+    background-color: orange;
     position: fixed;
+    top: 90px;
+    left: 120px;
 }
-.absolute{
-    border: 2px solid blue;
-    position: absolute;
+.last{
+    background-color: orange;
+    position: fixed;
+    top: 180px;
+    left: 120px;
+    z-index: -1;
 }
