@@ -1,9 +1,10 @@
-span{
-    margin-left: 5px;
+div.first{
+    border: 3px solid green;
 }
-input{
-    color: aqua;
+div.second{
+    border: 3px solid yellow;
 }
-input:checked + span {
+p:first-child{
     color: red;
+    font-weight: bold;
 }
