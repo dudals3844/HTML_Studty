@@ -1,7 +1,23 @@
+a:link{
+    color: orange;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}
 div{
-    border: 3px solid red;
+    background-color: orange;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
 
 }
-div + p{
+div:hover{
     background-color: blue;
+    color: white;
 }
