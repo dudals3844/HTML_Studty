@@ -1,10 +1,6 @@
-h2{
-    color: navy;
+div{
+    border: 3px solid red;
 }
-h2,h3{
-    text-align: center;
-}
-h2,h3,p{
-    background-color: lightgray;
-    color: black;
+div p{
+    background-color: blue;
 }
