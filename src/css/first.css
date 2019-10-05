@@ -1,7 +1,4 @@
-* {
-    color: red;
-}
-div{
-    border: 3px solid blue;
-    padding: 10px;
+h2{
+    color: teal;
+    text-decoration: underline;
 }
