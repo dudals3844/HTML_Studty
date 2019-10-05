@@ -8,14 +8,17 @@
 
     </head>
     <body>
-        <h1>descendant selector</h1>
-        <p>div 태그 외부의 p 태그는 선택되지 않습니다.</p>
-        <div>
-            <p>div in p tag apply select</p>
-            <p>div in p tag apply select</p>
-            <span>
-                <p>This p tag is surrounded by span tag</p>
-            </span>
-        </div>
+        <h1>general sibling selector</h1>
+        <p>이 p 태그는 div 태그의 sibling 이지만 div 태그보다 앞에 나옵니다!</p>
+	<div>
+		<p>이 p 태그는 div 태그의 child 입니다!</p>
+		<p>이 p 태그는 div 태그의 child 입니다!</p>
+		<p>이 p 태그는 div 태그의 child 입니다!</p>
+	</div>
+	<p>이 p 태그는 div 태그의 sibling 입니다!</p>
+	<p>이 p 태그는 div 태그의 sibling 입니다!</p>
+
+
+
     </body>
 </html>
