@@ -1,14 +1,29 @@
-.relative{
+.container{
     border: 2px solid red;
-    width: 500px;
-    height: 200px;
+    width: 100%;
+    height: 1000px;
     position: relative;
+}
+.positon{
+    width: 150px;
+    height: 50px;
+    top: 100px;
+    left: 120px;
+}
+.static{
+    border: 2px solid wheat;
+    position: static;
+}
+.relative{
+    border: 3px solid green;
+    position: relative;
+
+}
+.fixed {
+    border: 2px solid orange;
+    position: fixed;
 }
 .absolute{
     border: 2px solid blue;
-    width: 200px;
-    height: 100px;
     position: absolute;
-    top: 50px;
-    right: 0;
 }
