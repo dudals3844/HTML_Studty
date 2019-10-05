@@ -1,4 +1,10 @@
-.heading{
-    color: deepskyblue;
-    text-decoration: overline;
+h2{
+    color: navy;
+}
+h2,h3{
+    text-align: center;
+}
+h2,h3,p{
+    background-color: lightgray;
+    color: black;
 }
