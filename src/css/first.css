@@ -5,7 +5,7 @@ div.first{
 div.second{
     border: 3px solid yellow;
 }
-p:first-of-type{
+p:last-of-type{
     color: red;
     font-weight: bold;
 }
