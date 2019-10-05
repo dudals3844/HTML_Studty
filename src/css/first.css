@@ -1,22 +1,6 @@
-.page {
+div{
     border: 3px solid red;
-    overflow: auto;
-}
-h2{
-    text-align: center;
-}
-header{
-    border: 3px solid blue;
-}
-nav{
-    border: 3px solid green;
-    width:150px;
-    float: left;
-}
-section{
-    border: 3px solid orange;
-    margin-left: 156px;
-}
-footer{
-    border: 3px solid pink;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
 }
