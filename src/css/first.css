@@ -1,11 +1,9 @@
-input{
-    border: 3px solid orange;
-    width: 300px;
-    padding: 10px;
-    outline: none;
-    transition: 0.5s;
-
+span{
+    margin-left: 5px;
 }
-input:focus{
-    border: 3px solid red;
+input{
+    color: aqua;
+}
+input:checked + span {
+    color: red;
 }
