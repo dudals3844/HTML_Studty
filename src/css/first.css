@@ -2,6 +2,6 @@ div{
     border: 3px solid red;
 
 }
-div ~p{
+div + p{
     background-color: blue;
 }
