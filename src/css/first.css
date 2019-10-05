@@ -1,4 +1,3 @@
-p::first-line{
-    color: red;
-    font-size: 2em;
+p::before{
+    content: url("/src/img/macbook.jpg");
 }
