@@ -1,6 +1,12 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 div{
     border: 3px solid red;
     width: 300px;
     padding: 10px;
-    margin: auto;
+    margin: 0;
+    position: absolute;
+    right: 0;
 }
