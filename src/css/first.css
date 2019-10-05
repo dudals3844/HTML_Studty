@@ -1,21 +1,13 @@
-.position{
-    width: 180px;
+.left{
+    background-color: red;
+    width: 150px;
     height: 50px;
+    float: left;
 }
-.static{
-    background-color: lightblue;
-    position: static
-}
-.first {
-    background-color: orange;
-    position: fixed;
-    top: 90px;
-    left: 120px;
-}
-.last{
-    background-color: orange;
-    position: fixed;
-    top: 180px;
-    left: 120px;
-    z-index: -1;
+
+.right{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    float: right;
 }
