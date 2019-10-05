@@ -1,11 +1,8 @@
-div.first{
+div{
     border: 3px solid green;
-
 }
-div.second{
-    border: 3px solid yellow;
-}
-p:last-of-type{
+p:only-child{
     color: red;
     font-weight: bold;
 }
+
