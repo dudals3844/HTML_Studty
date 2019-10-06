@@ -1,3 +1,4 @@
-p::after{
-    content: url("/src/img/macbook.jpg");
+[title$="first"] {
+    background: black;
+    color: yellow;
 }
