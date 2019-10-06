@@ -1,16 +1,5 @@
-input[type="text"]{
-    width: 150px;
-    display: block;
-    background-color: bisque;
-    margin-bottom: 10px;
+q{
+    font-weight: bold;
 }
-input[type ="password"]{
-    width: 130px;
-    display: block;
-    background-color: aqua;
-    border: 2px solid red;
-}
-
-input[type = "password"]:focus{
-    background-color: greenyellow;
-}
+:lang(eb){quotes: '"' '"' '"' '"';}
+:lang(fr){quotes: "<<" ">>" "<" ">";}
