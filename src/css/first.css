@@ -7,6 +7,13 @@ ul{
     
 }
 li{
-    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    background-color: brown;
+    padding: 8px;
+    margin: 10px;
+    border: 2px solid white;
 }
 
