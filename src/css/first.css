@@ -5,3 +5,13 @@ input{
     box-sizing: border-box;
 }
 
+input[type="text"]{
+    border: solid 2px orange;
+    border-radius: 8px;
+}
+
+input[type = "password"]{
+    border: none;
+    border-bottom: solid 2px orange;
+}
+
