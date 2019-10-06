@@ -1,15 +1,14 @@
-div {
-    border: 3px solid black;
-    padding: 20px;
-    margin-bottom: 20px;
+#p_01 {
+    height: 50px;
+    width: 200px;
+    background: #DAA520;
+    padding: 20px; 
+    border-radius: 25px;
 }
-h2{ color: DeepPink; }
-#origin {
-    background: url("/src/img/macbook.jpg");
-    background-repeat: no-repeat;
-}
-#resize {
-    background: url("/src/img/macbook.jpg");
-    background-size: 200px 110px;
-    background-repeat: no-repeat;
+#div_01 {
+    height: 50px;
+    width: 200px;
+    padding: 20px; 
+    border: solid 3px #DAA520;
+    border-radius: 25px;
 }
