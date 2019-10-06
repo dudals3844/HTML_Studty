@@ -3,15 +3,7 @@ input{
     padding: 10px 20px;
     margin: 5px 0;
     box-sizing: border-box;
-}
+    background-color: antiquewhite;
+    color: olive;
 
-input[type="text"]{
-    border: solid 2px orange;
-    border-radius: 8px;
 }
-
-input[type = "password"]{
-    border: none;
-    border-bottom: solid 2px orange;
-}
-
