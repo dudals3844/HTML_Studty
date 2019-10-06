@@ -1,4 +1,16 @@
-[title*="first"] {
-    background: black;
-    color: yellow;
+input[type="text"]{
+    width: 150px;
+    display: block;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+input[type ="password"]{
+    width: 130px;
+    display: block;
+    background-color: aqua;
+    border: 2px solid red;
+}
+
+input[type = "password"]:focus{
+    background-color: greenyellow;
 }
