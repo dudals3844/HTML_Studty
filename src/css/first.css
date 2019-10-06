@@ -1,4 +1,4 @@
-[title$="first"] {
+[title*="first"] {
     background: black;
     color: yellow;
 }
